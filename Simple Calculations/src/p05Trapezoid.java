@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class p05_Trapezoid {
+public class p05Trapezoid {
 
     public static void main(String[] args) {
 

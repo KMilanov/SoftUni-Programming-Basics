@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class p04_ConcatenateData {
+public class p04ConcatenateData {
     public static void main( String[] args){
 
         Scanner scan = new Scanner(System.in);

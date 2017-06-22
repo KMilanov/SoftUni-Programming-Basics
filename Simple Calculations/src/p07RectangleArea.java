@@ -1,12 +1,7 @@
 import java.util.Scanner;
 
-/**
- * Created by Kristiyan on 29-Apr-17.
- */
-public class p08squarearea {
-
-    public static void main(String[] args){
-
+public class p07RectangleArea {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
         double x1 = Double.parseDouble(scan.nextLine());
@@ -17,12 +12,10 @@ public class p08squarearea {
         double sideA = Math.abs(x2 - x1);
         double sideB = Math.abs(y2 - y1);
 
-        double perimeter = (sideA+ sideB) * 2;
+        double perimeter = (sideA + sideB) * 2;
         double area = sideA * sideB;
 
         System.out.println(area);
         System.out.println(perimeter);
-
-
     }
 }

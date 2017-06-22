@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class p02_InchesToCentimeters {
+public class p02InchesToCentimeters {
     public static void main(String[] args){
 
         Scanner scan = new Scanner(System.in);
